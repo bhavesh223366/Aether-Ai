@@ -1,0 +1,66 @@
+﻿node : node:internal/modul
+es/package_json_reader:268
+At line:1 char:1
++ node src/app.js 2> 
+err.txt
++ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (n  
+  ode:internal/m...json   
+ _reader:268:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+  throw new ERR_MODULE_NOT
+_FOUND(packageName, 
+fileURLToPath(base), 
+null);
+        ^
+
+Error 
+[ERR_MODULE_NOT_FOUND]: 
+Cannot find package 
+'@prisma/adapter-pg' 
+imported from C:\Users\Del
+l\.gemini\antigravity\scra
+tch\aether-ai\backend\src\
+app.js
+    at 
+Object.getPackageJSONURL (
+node:internal/modules/pack
+age_json_reader:268:9)
+    at packageResolve (nod
+e:internal/modules/esm/res
+olve:768:81)
+    at moduleResolve (node
+:internal/modules/esm/reso
+lve:854:18)
+    at defaultResolve (nod
+e:internal/modules/esm/res
+olve:984:11)
+    at ModuleLoader.defaul
+tResolve (node:internal/mo
+dules/esm/loader:780:12)
+    at 
+#cachedDefaultResolve (nod
+e:internal/modules/esm/loa
+der:704:25)
+    at 
+ModuleLoader.resolve (node
+:internal/modules/esm/load
+er:687:38)
+    at ModuleLoader.getMod
+uleJobForImport (node:inte
+rnal/modules/esm/loader:30
+5:38)
+    at ModuleJob._link (no
+de:internal/modules/esm/mo
+dule_job:137:49) {
+  code: 
+'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v22.15.0

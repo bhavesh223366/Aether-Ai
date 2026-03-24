@@ -1,6 +1,22 @@
-# Logs and build artifacts
-*.txt
+# Build and error logs
+build_*.txt
 *.log
+clerk_exports.txt
+prisma_*.txt
+test_results.py
+analyze_*.py
+batch_*.py
+cse_*.py
+deep_search_*.py
+extract_*.py
+fetch_*.py
+find_*.py
+master_*.py
+get_*.py
+read_*.py
+scrape_*.py
+test_*.py
+explore.py
 
 # Unwanted API routes in backend (Next.js leftovers)
 backend/src/api/
