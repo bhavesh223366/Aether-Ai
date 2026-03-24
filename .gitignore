@@ -1,0 +1,13 @@
+# Logs and build artifacts
+*.txt
+*.log
+
+# Unwanted API routes in backend (Next.js leftovers)
+backend/src/api/
+
+# Dependencies
+node_modules/
+.next/
+
+# Env files
+.env*
